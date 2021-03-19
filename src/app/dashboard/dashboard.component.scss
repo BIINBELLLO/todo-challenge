@@ -1,0 +1,60 @@
+.header {
+  h3 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.045em;
+
+    color: #333333;
+  }
+}
+
+.main-content {
+  .tablike-headers {
+    border-bottom: 1px solid #bdbdbd;
+    h4 {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #333333;
+      margin-bottom: 0;
+      padding: 0 15px 10px 15px;
+      &:hover {
+        cursor: pointer;
+      }
+      &.active {
+        border-bottom: 2px solid #2f80ed;
+      }
+    }
+  }
+  .input-area {
+    input {
+      &::placeholder {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #828282;
+      }
+    }
+  }
+
+  .todo-area {
+    .strike {
+      text-decoration: line-through;
+    }
+  }
+
+  .hover {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
